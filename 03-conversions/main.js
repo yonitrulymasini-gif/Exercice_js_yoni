@@ -1,2 +1,7 @@
-const saisie = '7';
-// Essayez aussi 'abc' et '0'.
+const saisie = '14';
+let number = Number(saisie);
+if (number > 0) {
+    console.log(number * 2)
+} else {
+    console.log("Quantité invalide")
+}
