@@ -1,3 +1,7 @@
 const saisie = '  JAVASCRIPT ';
 const titre = 'Cours de JavaScript';
-// Complétez ici.
+
+const recherche = saisie.trim().toLowerCase();
+const TitreCorrect = titre.toLowerCase();
+
+console.log(TitreCorrect.includes(recherche));
